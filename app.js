@@ -43,7 +43,6 @@ app.delete('/peliculas/:id', (req, res) => {
     res.json('Pelicula Borrada');
 });
 
-
 //INTERACCION DE USUARIOS
 
 let usuarios = [];
@@ -94,7 +93,6 @@ app.post('/usuarios/login', (req, res) => {
         res.json('El usuario citado existe');
     }
 });
-
 
 //EL APARTADO DE PEDIDOS
 
